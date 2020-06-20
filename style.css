@@ -4,9 +4,11 @@ header{
     left:0;
     right:0;
 }
+
 #topMenu{
     text-align: center;
 }
+
 #topMenu ul li{
     list-style: none;
     color:black;
@@ -26,7 +28,8 @@ header{
     margin:0;
     font-size: 30px;
     font-weight:bold;
-    font-family: cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: italic;
     border-left: 1px solid black;
 }
 
@@ -37,6 +40,9 @@ header{
 #topMenu .menuLink:hover{
     color:#2d2d2d;
     background-color: #6d6d6d;
+}
+p{
+    font-family: 'Crimson Text', serif;
 }
 #me {
     text-align: center;
