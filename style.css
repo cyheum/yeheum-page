@@ -1,0 +1,118 @@
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+#topMenu{
+    text-align: center;
+}
+#topMenu ul li{
+    list-style: none;
+    color:black;
+    line-height: 50px;
+    vertical-align: middle;
+    display:inline;
+    text-align: center;
+}
+
+#topMenu li .menuLink{
+    text-decoration: none;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    color:black;
+    display:inline-block;
+    width:200px;
+    height:50px;
+    margin:0;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: cursive;
+    border-left: 1px solid black;
+}
+
+#topMenu li:first-child .menuLink {
+    border-left: none;
+}
+
+#topMenu .menuLink:hover{
+    color:#2d2d2d;
+    background-color: #6d6d6d;
+}
+#me {
+    text-align: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pictures {
+    text-align: center;
+    margin-bottom:80px;
+}
+
+img {
+    width: 400px;
+    border-radius: 70%;
+}
+
+.contents {
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    padding: 50px;
+}
+
+.img {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.icons {
+    font-size: 0;
+}
+
+.icon {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 4px;
+    background-repeat: no-repeat;
+}
+
+#pianoImg {
+    background-image: url(./piano.png);
+}
+
+#bowlingImg {
+    background-image: url(./bowling.png);
+}
+
+#judoImg {
+    background-image: url(./judo.jpeg);
+}
+
+#planImg {
+    background-image: url(./plan.png);
+}
+
+#facebook {
+    background-image: url(./facebookicon.png);
+}
+
+#insta {
+    background-image: url(./instaicon.png);
+}
+
+#address {
+    background-image: url(./addressicon.png);
+}
