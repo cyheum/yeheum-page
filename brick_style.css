@@ -1,0 +1,9 @@
+#canvascenter{
+    margin-top: 200px;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
