@@ -50,6 +50,15 @@ header{
     text-align: center;
 }
 
+#number_game_position{
+    margin: 200px auto;
+    text-align: center;
+    width: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid black;
+}
+
 .pictures {
     text-align: center;
     margin-bottom:80px;
