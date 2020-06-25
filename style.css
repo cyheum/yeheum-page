@@ -41,8 +41,8 @@ header{
     color:#2d2d2d;
     background-color: #6d6d6d;
 }
-p{
-    font-family: 'Crimson Text', serif;
+.text_font{
+    font-family: 'Noto Sans KR', sans-serif;
 }
 #me {
     text-align: center;
@@ -66,7 +66,7 @@ img {
 }
 h2{
     text-align: center;
-    font-family: cursive;
+    font-family: 'Crimson Text', serif;
     padding: 50px;
 }
 
@@ -120,4 +120,8 @@ h2{
 
 #address {
     background-image: url(./addressicon.png);
+}
+
+#velog{
+    background-image: url(./velogicon.png);
 }
