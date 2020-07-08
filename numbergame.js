@@ -28,7 +28,6 @@ function guess() {
         }
         else {
             document.getElementById("result").value = (num1 + "보다 작습니다.");
-
         }
     }
 
@@ -57,11 +56,11 @@ function ranking(count, name) {
 
     var rankingElem = document.getElementById("ranking");
     var printArray = [];
-    for(var i=0; i<nameAndCountArray.length; i++) {
+    for (var i = 0; i < nameAndCountArray.length; i++) {
         if (i >= 5) {
             break;
         }
-        printArray.push((i + 1) + '등 : ' + nameAndCountArray[i].name +" "+ nameAndCountArray[i].count + '회');
+        printArray.push((i + 1) + '등 : ' + nameAndCountArray[i].name + " " + nameAndCountArray[i].count + '회');
     }
     rankingElem.innerHTML = printArray.join("<br/>");
 }
